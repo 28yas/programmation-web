@@ -1,0 +1,108 @@
+/* Ajout de Google Fonts pour une typographie améliorée */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background: linear-gradient(90deg, #a63f91, #ebf8e1, #b83cf6);
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #21297a;
+}
+
+/* Image du profil */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Conteneur */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Fieldset */
+fieldset {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #3f87a6;
+    font-size: 1.2em;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Styles additionnels */
+h1, h2, legend {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+a {
+    color: #3f87a6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #3f87a6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f63ce7;
+}
+
